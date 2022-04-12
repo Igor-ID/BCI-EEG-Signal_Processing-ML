@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a2787bc-0004-4b88-a0ba-a25aba245f3a" name="Changes" comment="Add a method to collect data from OpenBCI using brainflow.">
-      <change afterPath="$PROJECT_DIR$/processing/processing.py" afterDir="false" />
+    <list default="true" id="8a2787bc-0004-4b88-a0ba-a25aba245f3a" name="Changes" comment="Add processing steps">
+      <change afterPath="$PROJECT_DIR$/processing_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualizing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acquisition/stream_lsl.py" beforeDir="false" afterPath="$PROJECT_DIR$/acquisition/stream_lsl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing/processing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +35,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BCI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MNE Filtering Resampling" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.processing">
+  <component name="RunManager" selected="Python.visualizing">
     <configuration name="processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BCI-EEG-Signal_Processing-ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +52,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processing/processing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="processing_tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BCI-EEG-Signal_Processing-ML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processing_tools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stream_lsl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="visualizing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BCI-EEG-Signal_Processing-ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/acquisition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\PythonBCI\BCI-EEG-Signal_Processing-ML\acquisition\stream_lsl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualizing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,10 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.visualizing" />
+        <item itemvalue="Python.processing_tools" />
         <item itemvalue="Python.processing" />
         <item itemvalue="Python.stream_lsl (1)" />
         <item itemvalue="Python.stream_brainflow" />
-        <item itemvalue="Python.stream_lsl" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631921585043</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add processing steps">
+      <created>1648809611331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648809611331</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +201,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add a method to collect data from OpenBCI using pylsl." />
     <MESSAGE value="Add a method to collect data from OpenBCI using brainflow." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a method to collect data from OpenBCI using brainflow." />
+    <MESSAGE value="Add processing steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add processing steps" />
   </component>
 </project>

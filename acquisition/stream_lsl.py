@@ -7,7 +7,7 @@ import csv
 import os
 import random
 
-ARCH_IM = 'Hades' # description of the evaluated image
+ARCH_IM = 'Hades'  # description of the evaluated image
 
 # MAX_HZ = 60  # not relevant working with time series
 last_print = time.time()
